@@ -1,0 +1,19 @@
+
+
+First time exc:-
+
+
+dotnet ef dbcontext scaffold "Server=LAPTOP-L44LHJOM\SQLEXPRESS;Database=Corebatch1PM;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o DB_Context
+
+
+When db update
+
+dotnet ef dbcontext scaffold "Server=LAPTOP-L44LHJOM\SQLEXPRESS;Database=Corebatch1PM;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o DB_Context -f
+
+
+
+
+
+
+=================================================================================================================
+does not work, in the project enter dotnet new tool-manifest, dotnet tool install dotnet-ef, dotnet tool restore.
